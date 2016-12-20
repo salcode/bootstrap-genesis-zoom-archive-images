@@ -1,0 +1,14 @@
+.home .entry-image-link,
+.archive .entry-image-link,
+.search-results .entry-image-link {
+	display: block;
+	overflow: hidden;
+}
+
+.archive-featured-image {
+	transition: transform 0.5s;
+}
+a:hover .archive-featured-image,
+a:focus .archive-featured-image {
+	transform: scale(1.05);
+}
